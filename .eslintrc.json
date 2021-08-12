@@ -1,0 +1,13 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "extends": ["airbnb", "prettier"],
+  "rules": {
+    "react/prop-types": false,
+    "react/destructuring-assignment": false,
+    "react/button-has-type": false
+  }
+}
